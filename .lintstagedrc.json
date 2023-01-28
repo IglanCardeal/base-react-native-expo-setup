@@ -1,3 +1,4 @@
 {
-  "*.tsx": ["npm run lint"]
+  "*.tsx": ["npm run lint"],
+  "*.ts": ["npm run lint"]
 }
