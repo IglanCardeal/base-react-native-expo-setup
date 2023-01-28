@@ -1,12 +1,17 @@
 {
-  "name": "ytplayer",
+  "name": "base-react-native-expo-setup",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "author": {
+    "name": "Iglan Monteiro de Miranda Cardeal"
+  },
+  "description": "Basic React Native Expo base setup using libs like Eslint, Prettier, TypeScript, Husky, git-commit-msg-linter and lint-staged.",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "test": "echo 'nothing here yet!'",
     "lint": "eslint --ignore-path .gitignore --ext .tsx --ext .ts src/",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky install"
