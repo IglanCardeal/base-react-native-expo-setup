@@ -1,4 +1,4 @@
 {
-  "*.tsx": ["npm run lint"],
-  "*.ts": ["npm run lint"]
+  "*.tsx": ["npx prettier --write --ignore-unknown", "npm run lint:fix"],
+  "*.ts": ["npx prettier --write --ignore-unknown", "npm run lint:fix"]
 }
