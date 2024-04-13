@@ -25,7 +25,7 @@
   "rules": {
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
-    "space-before-function-paren": ["error", "never"],
+    "space-before-function-paren": ["off"],
     "no-unsafe-finally": "error",
     "no-console": "warn",
     "quotes": ["error", "single"],
