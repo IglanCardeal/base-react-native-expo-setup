@@ -17,6 +17,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "babel-plugin-module-resolver": "^5.0.0",
     "expo": "~47.0.12",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
